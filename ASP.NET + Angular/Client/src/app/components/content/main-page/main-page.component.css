@@ -1,0 +1,192 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    height: 100%;
+    width: 37%;
+    padding-left: 18.75%;
+}
+
+.header-logo img {
+    width: 110px;
+    height: 35px;
+}
+
+.header-right {
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+}
+
+.header-right .search {
+    background-color: rgb(239, 239, 239);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 220px;
+    font-size: 16.5px;
+    padding-left: 45px;
+}
+
+.search-icon {
+    position: absolute;
+    width: 16.5px;
+    left: 15px;
+    top: 9px;
+}
+
+.header-right-icons {
+    margin-left: 70px;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.header-icon {
+    margin: 10px 14px 0;
+}
+
+.header-icon img {
+    width: 22px;
+}
+
+.header-profile-photo {
+    border: none;
+    background-color: white;
+    width: 22px;
+}
+
+.header-profile-photo img {
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+}
+
+.content {
+    width: 100%;
+    margin: 10px 350px 10px;
+}
+
+.content img {
+    width: 400px;
+    height: 400px;
+}
+
+.post {
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    border-radius: 2%;
+    width: 399px;
+}
+
+.content h5 {
+    font-weight: 400;
+}
+
+.content span {
+    font-weight: 700;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+}
+
+.post-header {
+    display: flex;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px 20px 5px 5px;
+}
+
+.post-header span {
+    margin-top: 17px;
+}
+
+.post-footer {
+    margin-left: 15px;
+}
+
+.post-buttons {
+    display: flex;
+    margin-top: 5px;
+}
+
+.post-button {
+    width: 24px;
+    height: 21px;
+    margin-right: 17px;
+    background-size: cover;
+}
+
+.heart {
+    background-image: url('../../../../assets/img/icons/heart-icon.png');
+}
+
+.heart:hover {
+    background-image: url('../../../../assets/img/icons/heart-hover-icon.png');
+}
+
+.heart-liked {
+    background-image: url('../../../../assets/img/icons/heart-liked-icon.png');
+}
+
+.comments {
+    background-image: url('../../../../assets/img/icons/comments-icon.png');
+    width: 21px;
+    height: 21px;
+}
+
+.comments:hover {
+    background-image: url('../../../../assets/img/icons/comments-hover-icon.png');
+}
+
+.forward {
+    background-image: url('../../../../assets/img/icons/forward-icon.png');
+}
+
+.forward:hover {
+    background-image: url('../../../../assets/img/icons/forward-hover-icon.png');
+}
+
+.save {
+    background-image: url('../../../../assets/img/icons/save-icon.png');
+    margin-left: auto;
+    width: 20px;
+}
+
+.save:hover {
+    background-image: url('../../../../assets/img/icons/save-hover-icon.png');
+}
+
+.save-saved {
+    background-image: url('../../../../assets/img/icons/save-saved-icon.png');
+    margin-left: auto;
+    width: 20px;
+}
+
+.post-buttons .right {
+    margin-left: 200px;
+}
+
+.post-buttons button {
+    border: none
+}

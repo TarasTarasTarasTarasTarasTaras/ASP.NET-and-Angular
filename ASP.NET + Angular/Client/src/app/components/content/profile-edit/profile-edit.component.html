@@ -1,0 +1,44 @@
+<header class="header">
+    <div class="header-logo">
+        <a href=''><img src="assets/img/header-logo-instagram.png"></a>
+    </div>
+    <div class="header-right">
+        <img src="assets/img/search-icon.png" class="search-icon">
+        <input type="text" class="search" placeholder="Поиск">
+
+        <div class="header-right-icons">
+            <a href="#" class="header-icon">
+                <img src="assets/img/icons/home-icon.png">
+            </a>
+            <a href="#" class="header-icon">
+                <img src="assets/img/icons/messanger-icon.png">
+            </a>
+            <a href="createpost" class="header-icon">
+                <img src="assets/img/icons/create-icon.png">
+            </a>
+            <a href="#" class="header-icon">
+                <img src="assets/img/icons/recomendations-icon.png">
+            </a>
+            <a href="#" class="header-icon">
+                <img src="assets/img/icons/heart-icon.png">
+            </a>
+            <button (click)="userPressed(currentUser.id)" class="header-profile-photo">
+                <img src="{{currentUser.profile.mainPhotoUrl}}">
+            </button>
+        </div>
+    </div>
+</header>
+
+<section class="inputs">
+    <form [formGroup]="profileForm" (ngSubmit)="editProfile()">
+        <input type="text" placeholder="Ім'я" formControlName="firstName">
+        <input type="text" placeholder="Прізвище" formControlName="lastName">
+        <input type="text" placeholder="Країна" formControlName="country">
+        <input type="text" placeholder="Місто" formControlName="city">
+        <input type="text" placeholder="Аватар" formControlName="mainPhotoUrl">
+        <input type="text" placeholder="Біографія" formControlName="biography">
+        Закритий акаунт<input type="checkbox" class="checkboxIsPrivate" formControlName="isPrivate">
+        <button type="submit" class="button-save">Зберегти</button>
+    </form>
+    
+</section>

@@ -1,0 +1,101 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+<header class="header">
+    <div class="container-header">
+        <div class="left">
+            <img src="assets/img/header-phone-main.png">
+        </div>
+        <div class="right">
+            <div class="right-first">
+                <form [formGroup]="loginForm" (ngSubmit)="login()">
+                    <div class="header-logo">
+                        <a href="#"><img src="assets/img/header-logo-instagram.png"></a>
+                    </div>
+                    
+                    <div class="header-form-inputs">
+                        <input type="text" placeholder="Телефон, имя пользователя или эл. адрес" formControlName="userName">
+                        <div class="text-danger-labels">
+                            <label class="text-danger-label" *ngIf="loginForm.get('userName')?.touched && loginForm.get('userName')?.errors?.['required']">This field is required</label>
+                        </div>
+                        
+                        <input type="password" placeholder="Пароль" formControlName="password">
+                        <div class="text-danger-labels">
+                            <label class="text-danger-label" *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.errors?.['required']">This field is required</label>
+                            <label class="text-danger-label" *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.errors?.['minlength']">Min 6 characters</label>
+                            <label class="text-danger-label" *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.errors?.['maxlength']">Max 32 characters</label>    
+                        </div>
+
+                        <div class="error-message">
+                            {{errorMessage}}
+                        </div>
+
+                        <button type="submit" class="button-login">Войти</button>
+                    </div>
+
+                    <div class="header-line">
+                        <hr> или <hr>
+                    </div>
+
+                    <div class="login-facebook">
+                        <img src="assets/img/facebook-icon.png">
+                        <a href="https://www.facebook.com/">Войти через Facebook</a>
+                    </div>
+
+                    <a href="#" class="forgot-password">Забыли пароль?</a>
+                </form>
+            </div>
+
+            <div class="right-second">
+                У вас ещё нет аккаунта? <a href="register">Зарегистрироваться</a>
+            </div>
+
+            <div class="right-third">
+                Установите приложение.
+                <div class="download-ref">
+                    <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo">
+                        <img src="assets/img/download-appstore.png">
+                    </a>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DAEAE5E34-FFB4-4059-B2DD-CA5BBD093C6A%26utm_content%3Dlo%26utm_medium%3Dbadge">
+                        <img src="assets/img/download-googleplay.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<footer class="footer">
+    <div class="first-line">
+        <ul class="refs">
+            <li class="footer-ref"><a href=#>Meta</a></li>
+            <li class="footer-ref"><a href=#>Информация</a></li>
+            <li class="footer-ref"><a href=#>Блог</a></li>
+            <li class="footer-ref"><a href=#>Вакансии</a></li>
+            <li class="footer-ref"><a href=#>Помощь</a></li>
+            <li class="footer-ref"><a href=#>API</a></li>
+            <li class="footer-ref"><a href=#>Конфиденциальность</a></li>
+            <li class="footer-ref"><a href=#>Условия</a></li>
+            <li class="footer-ref"><a href=#>Популярные аккаунты</a></li>
+            <li class="footer-ref"><a href=#>Хэштеги</a></li>
+            <li class="footer-ref"><a href=#>Места</a></li>
+            <li class="footer-ref"><a href=#>Instagram Lite</a></li>
+            <li class="footer-ref"><a href=#>Загрузка контактов и лица, не являющиеся пользователями</a></li>
+        </ul>
+    </div>
+    <div class="second-line">
+        <ul class="refs">
+            <li class="footer-ref"><a href=#>Танцы</a></li>
+            <li class="footer-ref"><a href=#>Еда и напитки</a></li>
+            <li class="footer-ref"><a href=#>Дом и сад</a></li>
+            <li class="footer-ref"><a href=#>Музыка</a></li>
+            <li class="footer-ref"><a href=#>Изобразительное искусство</a></li>
+        </ul>
+    </div>
+    <div class="third-line">
+        Русский 
+        © 2022 Instagram from Meta
+    </div>
+</footer>

@@ -1,0 +1,17 @@
+<div class="backdrop"></div>
+
+<div class="modal">
+    <form class="createPost" [formGroup]="postForm" (ngSubmit)="create()">
+        <div class="form-group">
+          <label for="inputHeader">ImageUrl</label>
+          <input type="text" class="form-control" id="inputHeader" placeholder="imageUrl" formControlName="imageUrl">
+          <label class="text-danger" *ngIf="postForm.get('imageUrl')?.touched && postForm.get('imageUrl')?.errors?.['required']">This field is required</label>
+        </div>
+        <div class="form-group">
+          <label for="InputDescription">Description</label>
+          <input type="text" class="form-control" id="InputDescription" placeholder="Description" formControlName="description">
+        </div>
+        <button [disabled]="postForm.valid !== true" type="submit">Ok</button>
+        <button routerLink="">Cancel</button>
+    </form>
+</div>

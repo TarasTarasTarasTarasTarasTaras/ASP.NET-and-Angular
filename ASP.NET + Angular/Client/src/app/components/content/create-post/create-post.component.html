@@ -1,0 +1,45 @@
+<header class="header">
+  <div class="header-logo">
+      <a href=''><img src="assets/img/header-logo-instagram.png"></a>
+  </div>
+  <div class="header-right">
+      <img src="assets/img/search-icon.png" class="search-icon">
+      <input type="text" class="search" placeholder="Поиск">
+
+      <div class="header-right-icons">
+          <a href="#" class="header-icon">
+              <img src="assets/img/icons/home-icon.png">
+          </a>
+          <a href="#" class="header-icon">
+              <img src="assets/img/icons/messanger-icon.png">
+          </a>
+          <a href="createpost" class="header-icon">
+              <img src="assets/img/icons/create-active-icon.png">
+          </a>
+          <a href="#" class="header-icon">
+              <img src="assets/img/icons/recomendations-icon.png">
+          </a>
+          <a href="#" class="header-icon">
+              <img src="assets/img/icons/heart-icon.png">
+          </a>
+          <a href="#" class="header-profile-photo">
+            <img src="{{user.profile.mainPhotoUrl}}">
+        </a>
+      </div>
+  </div>
+</header>
+
+<section class="content">
+  <img *ngIf="postForm.value.imageUrl != ''" src="{{postForm.value.imageUrl}}">
+  <div *ngIf="postForm.value.description != ''" class="description-block">
+        <p class="description">Description</p>
+        <h5>{{postForm.value.description}}</h5>
+  </div>
+
+  <div *ngIf="postForm.value.imageUrl != ''" class="buttons">
+        <button (click)="create()">Create post</button>
+        <button (click)="edit()">Edit</button>
+  </div>
+</section>
+
+<app-modal-window *ngIf="modal" (close)="modal = false"></app-modal-window>

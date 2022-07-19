@@ -1,0 +1,67 @@
+<header class="header">
+    <div class="header-logo">
+        <a href=''><img src="assets/img/header-logo-instagram.png"></a>
+    </div>
+    <div class="header-right">
+        <img src="assets/img/search-icon.png" class="search-icon">
+        <input type="text" class="search" placeholder="Поиск">
+
+        <div class="header-right-icons">
+            <a href="#" class="header-icon">
+                <img src="assets/img/icons/home-active-icon.png">
+            </a>
+            <a href="#" class="header-icon">
+                <img src="assets/img/icons/messanger-icon.png">
+            </a>
+            <a href="createpost" class="header-icon">
+                <img src="assets/img/icons/create-icon.png">
+            </a>
+            <a href="#" class="header-icon">
+                <img src="assets/img/icons/recomendations-icon.png">
+            </a>
+            <a href="#" class="header-icon">
+                <img src="assets/img/icons/heart-icon.png">
+            </a>
+            <!-- <a href="#" class="header-profile-photo">
+                <img src="{{user.profile.mainPhotoUrl}}">
+            </a> -->
+            <button (click)="userPressed()" class="header-profile-photo">
+                <img src="{{user.profile.mainPhotoUrl}}">
+            </button>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="content">
+        <h5 *ngFor="let post of posts" class="post">
+            <a href="profile/{{post.user.id}}" class="post-header">
+                <img class="profile-photo" src="{{post.user.profile.mainPhotoUrl}}">
+                <span>{{post.createdBy}}</span>
+            </a>
+            
+            <img src="{{post.imageUrl}}">
+
+            <div class="post-footer">
+                <div class="post-buttons">
+                    <button (click)="likePressed(post.id)" *ngIf="postIsLiked(post)" class="post-button heart-liked"></button>
+                    <button (click)="likePressed(post.id)" *ngIf="!postIsLiked(post)" class="post-button heart"></button>
+
+                    <a class="post-button comments" href="#"></a>
+                    <a class="post-button forward" href="#"></a>
+
+                    <button (click)="savePressed(post.id)" *ngIf="postIsSaved(post)" class="post-button save-saved"></button>
+                    <button (click)="savePressed(post.id)" *ngIf="!postIsSaved(post)" class="post-button save"></button>
+                </div>
+
+                <p *ngIf="post.likes.length === 0">0 отметок "Нравится"</p>
+                <p *ngIf="post.likes.length === 1">1 отметка "Нравится"</p>
+                <p *ngIf="post.likes.length >= 2 && post.likes.length <= 4">{{post.likes.length}} отметки "Нравится"</p>
+                <p *ngIf="post.likes.length > 4">{{post.likes.length}} отметки "Нравится"</p>
+
+                <p><span>{{post.createdBy}}</span> {{post.description}}</p>
+            </div>
+        </h5>
+    </div>
+    
+</section>

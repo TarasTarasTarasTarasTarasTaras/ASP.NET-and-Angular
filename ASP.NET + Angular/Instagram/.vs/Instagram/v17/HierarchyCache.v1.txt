@@ -1,0 +1,232 @@
+﻿++Solution 'Instagram' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:Instagram.sln
+++Instagram
+i:{00000000-0000-0000-0000-000000000000}:Instagram
+++Connected Services 
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:>495
+++Dependencies
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:>494
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:>357
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:>356
+++Properties
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\properties\
+++Controllers
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\controllers\
+++AccountsController.cs
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\controllers\accountscontroller.cs
+++PostController.cs
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\controllers\postcontroller.cs
+++ProfilesController.cs
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\controllers\profilescontroller.cs
+++Filters
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\filters\
+++ValidationFilter.cs
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\filters\validationfilter.cs
+++Responses
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\responses\
+++CustomResponse.cs
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\responses\customresponse.cs
+++appsettings.json
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\appsettings.json
+++Program.cs
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\program.cs
+++No service dependencies discovered
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:>496
+++Analyzers
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:analyzers
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:analyzers
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:analyzers
+++Frameworks
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:frameworks
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:frameworks
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:frameworks
+++Packages
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:packages
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:packages
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:packages
+++Projects
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:projects
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:projects
+++launchSettings.json
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\properties\launchsettings.json
+++appsettings.Development.json
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\users\taras\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.6\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\users\taras\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.6\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\users\taras\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.6\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\microsoft.netcore.app
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\microsoft.netcore.app
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\microsoft.netcore.app
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.6)
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:>516
+++Microsoft.EntityFrameworkCore.Design (6.0.6)
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:>514
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:>527
+++Swashbuckle.AspNetCore (6.2.3)
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:>515
+++Business
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\business\bin\debug\net6.0\business.dll
+i:{00000000-0000-0000-0000-000000000000}:Business
+++Data
+i:{00000000-0000-0000-0000-000000000000}:Data
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\data\
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\data\data.csproj
+++ContextManagerDB.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\data\contextmanagerdb.cs
+++InstagramContextDB.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\data\instagramcontextdb.cs
+++UserResolverService.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\data\userresolverservice.cs
+++Entities
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\
+++Base
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\base\
+++Comment.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\comment.cs
+++Post.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\post.cs
+++Profile.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\profile.cs
+++User.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\user.cs
+++UserLikes.cs
+++Migrations
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\migrations\
+++Repositories
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\repositories\
+++Interfaces
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\repositories\interfaces\
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\services\interfaces\
+++IPostRepository.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\repositories\interfaces\ipostrepository.cs
+++IUserLikesRepository.cs
+++PostRepository.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\repositories\postrepository.cs
+++UserLikesRepository.cs
+++DeletableEntity.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\base\deletableentity.cs
+++Entity.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\base\entity.cs
+++IDeletableEntity.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\base\ideletableentity.cs
+++IEntity.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\base\ientity.cs
+++20220714213134_Initial.cs
+++InstagramContextDBModelSnapshot.cs
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\migrations\instagramcontextdbmodelsnapshot.cs
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.6)
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:>528
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.6)
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:>529
+++Microsoft.EntityFrameworkCore (6.0.6)
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:>525
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.6)
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:>526
+++Microsoft.EntityFrameworkCore.Tools (6.0.6)
+++Npgsql.EntityFrameworkCore.PostgreSQL (6.0.5)
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:>530
+++20220714213134_Initial.Designer.cs
+++Models
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\models\
+++LoginViewModel.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\models\loginviewmodel.cs
+++PostEditViewModel.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\models\posteditviewmodel.cs
+++PostViewModel.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\models\postviewmodel.cs
+++RegisterViewModel.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\models\registerviewmodel.cs
+++Services
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\services\
+++IPostService.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\services\interfaces\ipostservice.cs
+++IUserLikesService.cs
+++IUserService.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\services\interfaces\iuserservice.cs
+++PostService.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\services\postservice.cs
+++UserLikesService.cs
+++UserService.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\services\userservice.cs
+++Validators
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\validators\
+++ErrorModel.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\validators\errormodel.cs
+++LoginViewModelValidator.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\validators\loginviewmodelvalidator.cs
+++RegisterViewModelValidator.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\validators\registerviewmodelvalidator.cs
+++AutoMapperProfile.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\automapperprofile.cs
+++AutoMapper (11.0.1)
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:>539
+++FluentValidation.AspNetCore (11.1.2)
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:>538
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.6)
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:>540
+++20220715125425_Initial.cs
+++20220715125425_Initial.Designer.cs
+++UserSave.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\usersave.cs
+++UserLike.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\entities\userlike.cs
+++20220715142833_Initial.cs
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\migrations\20220715142833_initial.cs
+++20220715142833_Initial.Designer.cs
+i:{a47fa83a-93ef-40af-b2aa-8152358c2713}:c:\programming\asp.net + angular\instagram\instagram\migrations\20220715142833_initial.designer.cs
+++IUserInteractionRepository.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\repositories\interfaces\iuserinteractionrepository.cs
+++UserInteractionRepository.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\repositories\userinteractionrepository.cs
+++IUserInteractionService.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\services\interfaces\iuserinteractionservice.cs
+++UserInteractionService.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\services\userinteractionservice.cs
+++IProfileRepository.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\repositories\interfaces\iprofilerepository.cs
+++ProfileRepository.cs
+i:{96cf7d2a-3b51-4a8a-b4c2-5c310cf0fd4a}:c:\programming\asp.net + angular\instagram\data\repositories\profilerepository.cs
+++IProfileService.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\services\interfaces\iprofileservice.cs
+++ProfileService.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\services\profileservice.cs
+++ProfileViewModel.cs
+i:{13c4ed16-f08f-4b17-b17a-9fd2c5632069}:c:\programming\asp.net + angular\instagram\business\models\profileviewmodel.cs

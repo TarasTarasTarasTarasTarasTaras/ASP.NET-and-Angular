@@ -1,0 +1,15 @@
+C:\Programming\ASP.NET + Angular\Instagram\Business\bin\Debug\net6.0\Business.deps.json
+C:\Programming\ASP.NET + Angular\Instagram\Business\bin\Debug\net6.0\Business.dll
+C:\Programming\ASP.NET + Angular\Instagram\Business\bin\Debug\net6.0\Business.pdb
+C:\Programming\ASP.NET + Angular\Instagram\Business\bin\Debug\net6.0\Data.dll
+C:\Programming\ASP.NET + Angular\Instagram\Business\bin\Debug\net6.0\Data.pdb
+C:\Programming\ASP.NET + Angular\Instagram\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Programming\ASP.NET + Angular\Instagram\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\ASP.NET + Angular\Instagram\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Programming\ASP.NET + Angular\Instagram\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Programming\ASP.NET + Angular\Instagram\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Programming\ASP.NET + Angular\Instagram\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+C:\Programming\ASP.NET + Angular\Instagram\Business\obj\Debug\net6.0\Business.dll
+C:\Programming\ASP.NET + Angular\Instagram\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Programming\ASP.NET + Angular\Instagram\Business\obj\Debug\net6.0\Business.pdb
+C:\Programming\ASP.NET + Angular\Instagram\Business\obj\Debug\net6.0\ref\Business.dll

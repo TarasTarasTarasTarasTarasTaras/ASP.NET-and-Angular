@@ -1,0 +1,14 @@
+C:\Programming\ASP.NET + Angular\Instagram\Data\bin\Debug\net6.0\Data.deps.json
+C:\Programming\ASP.NET + Angular\Instagram\Data\bin\Debug\net6.0\Data.dll
+C:\Programming\ASP.NET + Angular\Instagram\Data\bin\Debug\net6.0\Data.pdb
+C:\Programming\ASP.NET + Angular\Instagram\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\Programming\ASP.NET + Angular\Instagram\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\ASP.NET + Angular\Instagram\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\Programming\ASP.NET + Angular\Instagram\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\Programming\ASP.NET + Angular\Instagram\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\Programming\ASP.NET + Angular\Instagram\Data\obj\Debug\net6.0\Data.dll
+C:\Programming\ASP.NET + Angular\Instagram\Data\obj\Debug\net6.0\refint\Data.dll
+C:\Programming\ASP.NET + Angular\Instagram\Data\obj\Debug\net6.0\Data.pdb
+C:\Programming\ASP.NET + Angular\Instagram\Data\obj\Debug\net6.0\ref\Data.dll
+C:\Programming\ASP.NET + Angular\Instagram\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+C:\Programming\ASP.NET + Angular\Instagram\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
